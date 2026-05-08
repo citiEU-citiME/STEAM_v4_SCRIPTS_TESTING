@@ -1,0 +1,50 @@
+Page 1  (VOYAGER PILOT) 
+citiEU Consultancy LTD
+------------------------
+PILOT (v.04/28/2025 [25.00.01.00 x64]) Thu May  7 16:41:05 2026
+
+Args: D:\STEAM_v4_SCRIPTS_TESTING\Applications\MAIN\MAIN_cubepy_a-0001.S -CS127.0.0.1:42501/12 -SD:\STEAM_v4_SCRIPTS_TESTING\Applications\MAIN\
+Input:   D:...AM_v4_SCRIPTS_TESTING\Applications\MAIN\MAIN_cubepy_a-0001.S
+
+M(658): Input expanded to C:\Users\antor\AppData\Local\Temp\Voy27520_15400.$$$ before starting run
+
+CLUSTER SERVER=127.0.0.1 NUMPROCESSES=12 PORT=42501
+SYS=(cmd /c ""C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "D:/STEAM_v4_SCRIPTS_TESTING/venv/exec.py" "-p" "C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "-c" "-v" "-m" "-r" "D:/STEAM_v4_SCRIPTS_TESTING/pip-requirements.txt" "-u" "D:/STEAM_v4_SCRIPTS_TESTING/venv/venv311" ")
+REPORT_SCRIPT_LOCATION LOCATION_ID='RUNSTART'
+REPORT_SCRIPT_LOCATION LOCATION_ID='209'
+SYS=(cmd /c ""C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "D:/STEAM_v4_SCRIPTS_TESTING/venv/cubepy_exec.py" "-p" "C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "-v" "-u" "D:/STEAM_v4_SCRIPTS_TESTING/venv/venv311" "-s" "D:/STEAM_v4_SCRIPTS_TESTING/Applications/MAIN/cubepy_a-0001_run.py" ")
+REPORT_SCRIPT_LOCATION LOCATION_ID='IDEND:209'
+if (RETURNCODE > 0) ABORT
+REPORT_SCRIPT_LOCATION LOCATION_ID='RUNEND'
+
+PILOT Stack Size = 1018 bytes.
+................................................................................
+
+
+--------------------------------------------------------------------------------
+
+SYS "cmd /c ""C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "D:/STEAM_v4_SCRIPTS_TESTING/venv/exec.py" "-p" "C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "-c" "-v" "-m" "-r" "D:/STEAM_v4_SCRIPTS_TESTING/pip-requirements.txt" "-u" "D:/STEAM_v4_SCRIPTS_TESTING/venv/venv311" ""
+
+SYS ReturnCode = 0
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+SYS "cmd /c ""C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "D:/STEAM_v4_SCRIPTS_TESTING/venv/cubepy_exec.py" "-p" "C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "-v" "-u" "D:/STEAM_v4_SCRIPTS_TESTING/venv/venv311" "-s" "D:/STEAM_v4_SCRIPTS_TESTING/Applications/MAIN/cubepy_a-0001_run.py" ""
+Traceback (most recent call last):
+  File "D:\STEAM_v4_SCRIPTS_TESTING\Applications\MAIN\cubepy_a-0001_run.py", line 32, in <module>
+    cubepy_a.run(input_files, output_files, keys)
+  File "D:\STEAM_v4_SCRIPTS_TESTING\Applications\MAIN\cubepy_a.py", line 32, in run
+    cube_convert = keys["ConvertUtility"]
+                   ~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'ConvertUtility'
+
+SYS ReturnCode = 2 ???
+
+--------------------------------------------------------------------------------
+StackLoc: CTL/KEY    process : result
+
+Loc  942: ABORT      
+
+VOYAGER  ReturnCode = 3  Elapsed Time = 00:00:31

@@ -1,0 +1,166 @@
+ 
+MATRIX (v.04/28/2025 [25.00.01.00 x64])  Fri May  8 17:56:21 2026
+
+FILEO PRINTO[2] = "D:\STEAM_v4_SCRIPTS_TESTING\Scenarios\Base-0001\G0MATUGV5X4TN7I.csv"
+FILEO PRINTO[1] = "D:\STEAM_v4_SCRIPTS_TESTING\Scenarios\Base-0001\G0MAT2OMQT6HPVO.csv"
+FILEO MATO[5] = "D:\STEAM_v4_SCRIPTS_TESTING\Scenarios\Base-0001\G0MATO05VLPYIIZ.MAT",MO=141-145, NAME= T4P1, T4P2, T4P3, T4P4, T4P5
+FILEO MATO[4] = "D:\STEAM_v4_SCRIPTS_TESTING\Scenarios\Base-0001\G0MATHTBF822EBM.MAT",MO=131-135, NAME= T3P1, T3P2, T3P3, T3P4, T3P5
+FILEO MATO[3] = "D:\STEAM_v4_SCRIPTS_TESTING\Scenarios\Base-0001\G0MATC22X49DY2T.MAT",MO=121-125, NAME= T2P1, T2P2, T2P3, T2P4, T2P5
+FILEO MATO[2] = "D:\STEAM_v4_SCRIPTS_TESTING\Scenarios\Base-0001\G0MATSM7RLNUYNF.MAT",MO=111-115, NAME= T1P1, T1P2, T1P3, T1P4, T1P5
+FILEO MATO[1] = "D:\STEAM_v4_SCRIPTS_TESTING\Scenarios\Base-0001\G0MATBX6ZDUJ352.MAT",MO=11-15,21-25,31-35,41-45, NAME= T1P1, T1P2, T1P3, T1P4, T1P5, T2P1, T2P2, T2P3, T2P4, T2P5, T3P1, T3P2, T3P3, T3P4, T3P5, T4P1, T4P2, T4P3, T4P4, T4P5
+PAR ZONES=10
+MW[11] = 1
+MW[12] = 1
+MW[13] = 1
+MW[14] = 1
+MW[15] = 1
+MW[21] = 1
+MW[22] = 1
+MW[23] = 1
+MW[24] = 1
+MW[25] = 1
+MW[31] = 1
+MW[32] = 1
+MW[33] = 1
+MW[34] = 1
+MW[35] = 1
+MW[41] = 1
+MW[42] = 1
+MW[43] = 1
+MW[44] = 1
+MW[45] = 1
+JLOOP
+MW[111] = I* MW[11]
+MW[112] = I* MW[12]
+MW[113] = I* MW[13]
+MW[114] = I* MW[14]
+MW[115] = I* MW[15]Page 2  (VOYAGER MATRIX) 
+citiEU Consultancy LTD
+-------------------------
+MW[121] = I* MW[21]
+MW[122] = I* MW[22]
+MW[123] = I* MW[23]
+MW[124] = I* MW[24]
+MW[125] = I* MW[25]
+MW[131] = I* MW[31]
+MW[132] = I* MW[32]
+MW[133] = I* MW[33]
+MW[134] = I* MW[34]
+MW[135] = I* MW[35]
+MW[141] = I* MW[41]
+MW[142] = I* MW[42]
+MW[143] = I* MW[43]
+MW[144] = I* MW[44]
+MW[145] = I* MW[45]
+ENDJLOOP
+IF (I=1)
+PRINT PRINTO=1, CSV=T, LIST = 'time','purp1','purp2','purp3','purp4','purp5'
+PRINT PRINTO=1,FORM=4.0, CSV=T, LIST = 1,10,20,30,40,50
+PRINT PRINTO=1,FORM=4.0, CSV=T, LIST = 2,10,20,30,40,50
+PRINT PRINTO=1,FORM=4.0, CSV=T, LIST = 3,10,20,30,40,50
+PRINT PRINTO=1,FORM=4.0, CSV=T, LIST = 4,10,20,30,40,50
+PRINT PRINTO=2, CSV=T, LIST = 'purp','fact'
+PRINT PRINTO=2, CSV=T, LIST = 1(4.0),0.1
+PRINT PRINTO=2, CSV=T, LIST = 2(4.0),0.2
+PRINT PRINTO=2, CSV=T, LIST = 3(4.0),0.3
+PRINT PRINTO=2, CSV=T, LIST = 4(4.0),0.4
+PRINT PRINTO=2, CSV=T, LIST = 5(4.0),0.5
+ENDIF
+
+MATRIX Stack Size = 6178 bytes.
+................................................................................
+Page 3  (VOYAGER MATRIX) 
+citiEU Consultancy LTD
+-------------------------
+
+Totals after Iteration 1 I loop:
+
+	MW[11]   : 100   @J=I:  10
+	MW[12]   : 100   @J=I:  10
+	MW[13]   : 100   @J=I:  10
+	MW[14]   : 100   @J=I:  10
+	MW[15]   : 100   @J=I:  10
+	MW[21]   : 100   @J=I:  10
+	MW[22]   : 100   @J=I:  10
+	MW[23]   : 100   @J=I:  10
+	MW[24]   : 100   @J=I:  10
+	MW[25]   : 100   @J=I:  10
+	MW[31]   : 100   @J=I:  10
+	MW[32]   : 100   @J=I:  10
+	MW[33]   : 100   @J=I:  10
+	MW[34]   : 100   @J=I:  10
+	MW[35]   : 100   @J=I:  10
+	MW[41]   : 100   @J=I:  10
+	MW[42]   : 100   @J=I:  10
+	MW[43]   : 100   @J=I:  10
+	MW[44]   : 100   @J=I:  10
+	MW[45]   : 100   @J=I:  10
+	MW[111]  : 550   @J=I:  55
+	MW[112]  : 550   @J=I:  55
+	MW[113]  : 550   @J=I:  55
+	MW[114]  : 550   @J=I:  55
+	MW[115]  : 550   @J=I:  55
+	MW[121]  : 550   @J=I:  55
+	MW[122]  : 550   @J=I:  55
+	MW[123]  : 550   @J=I:  55
+	MW[124]  : 550   @J=I:  55
+	MW[125]  : 550   @J=I:  55
+	MW[131]  : 550   @J=I:  55
+	MW[132]  : 550   @J=I:  55
+	MW[133]  : 550   @J=I:  55
+	MW[134]  : 550   @J=I:  55
+	MW[135]  : 550   @J=I:  55
+	MW[141]  : 550   @J=I:  55
+	MW[142]  : 550   @J=I:  55
+	MW[143]  : 550   @J=I:  55
+	MW[144]  : 550   @J=I:  55
+	MW[145]  : 550   @J=I:  55
+	MO.05.001: 550
+	MO.05.002: 550
+	MO.05.003: 550
+	MO.05.004: 550
+	MO.05.005: 550
+	MO.04.001: 550
+	MO.04.002: 550
+	MO.04.003: 550
+	MO.04.004: 550
+	MO.04.005: 550
+	MO.03.001: 550Page 4  (VOYAGER MATRIX) 
+citiEU Consultancy LTD
+-------------------------
+	MO.03.002: 550
+	MO.03.003: 550
+	MO.03.004: 550
+	MO.03.005: 550
+	MO.02.001: 550
+	MO.02.002: 550
+	MO.02.003: 550
+	MO.02.004: 550
+	MO.02.005: 550
+	MO.01.001: 100
+	MO.01.002: 100
+	MO.01.003: 100
+	MO.01.004: 100
+	MO.01.005: 100
+	MO.01.006: 100
+	MO.01.007: 100
+	MO.01.008: 100
+	MO.01.009: 100
+	MO.01.010: 100
+	MO.01.011: 100
+	MO.01.012: 100
+	MO.01.013: 100
+	MO.01.014: 100
+	MO.01.015: 100
+	MO.01.016: 100
+	MO.01.017: 100
+	MO.01.018: 100
+	MO.01.019: 100
+	MO.01.020: 100
+
+Variable Values at end of Iteration 1 I loop:
+
+    THISPROCESS: 00000000-0000-0000-0000-000000000000
+
+MATRIX   ReturnCode = 0  Elapsed Time = 00:00:01
+################################################################################

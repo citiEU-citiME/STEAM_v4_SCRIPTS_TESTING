@@ -1,0 +1,27 @@
+Page 1  (VOYAGER PILOT) 
+citiEU Consultancy LTD
+------------------------
+PILOT (v.04/28/2025 [25.00.01.00 x64]) Thu May  7 16:29:43 2026
+
+Args: D:\STEAM_v4_SCRIPTS_TESTING\Applications\MAIN\MAIN_matrix-0001.S -CS127.0.0.1:42501/12 -SD:\STEAM_v4_SCRIPTS_TESTING\Applications\MAIN\
+Input:   D:...TEAM_v4_SCRIPTS_TESTING\Applications\MAIN\MAIN_matrix-0001.S
+
+M(658): Input expanded to C:\Users\antor\AppData\Local\Temp\Voy24596_74400.$$$ before starting run
+
+CLUSTER SERVER=127.0.0.1 NUMPROCESSES=12 PORT=42501
+REPORT_SCRIPT_LOCATION LOCATION_ID='RUNSTART'
+REPORT_SCRIPT_LOCATION LOCATION_ID='4'
+RUN PGM=MATRIX,153 PRNFILE="D:\STEAM_v4_SCRIPTS_TESTING\Scenarios\Base-0001\G0MATNBAPNC8ZFR.PRN" MSG='create dummy files' STEP_ID='4'
+REPORT_SCRIPT_LOCATION LOCATION_ID='RUNEND'
+
+PILOT Stack Size = 336 bytes.
+................................................................................
+
+
+M(635): Switching print to D:\STEAM_v4_SCRIPTS_TESTING\Scenarios\Base-0001\G0MATNBAPNC8ZFR.PRN. 
+MATRIX (v.04/28/2025 [25.00.01.00 x64])  Thu May  7 16:29:44 2026
+MATRIX   ReturnCode = 0  Elapsed Time = 00:00:00
+################################################################################
+
+
+VOYAGER  ReturnCode = 0  Elapsed Time = 00:00:01

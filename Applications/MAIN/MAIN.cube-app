@@ -1,0 +1,2372 @@
+{
+    "displayName": "MAIN",
+    "dataType": "Cube Application",
+    "version": 2,
+    "historyInfo": {
+        "maxItems": 0,
+        "maxMemoryMB": 100
+    },
+    "showGrid": false,
+    "snapToGrid": true,
+    "showShadows": true,
+    "showRunTime": true,
+    "linkLineStyle": 1,
+    "defaultLineColor": [
+        0,
+        0,
+        0,
+        255
+    ],
+    "defaultLineStyle": "Solid",
+    "LinkDrawInfo": {
+        "color": [
+            0,
+            0,
+            0,
+            255
+        ],
+        "penStyle": "Solid",
+        "thickness": 2.0,
+        "inherit": true,
+        "curvature": 1
+    },
+    "ApplicationSettings": {
+        "showAppChain": true,
+        "appChainLocation": 0,
+        "font": {
+            "family": "Calibri",
+            "pointSize": 28,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikeOut": false,
+            "weight": 700
+        },
+        "SizeSettings": {
+            "zoomPlusMinus": 1.1,
+            "zoomMouseWheel": 0.3,
+            "minWindowSizeFrac": 0.25,
+            "linkLineThickness": 2.0,
+            "gridSquareSizeFrac": 0.025
+        },
+        "FileEntitySettings": {
+            "displayMode": 2,
+            "fontInputFiles": {
+                "family": "Bahnschrift Condensed",
+                "pointSize": 24,
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "strikeOut": false,
+                "weight": 400
+            },
+            "fontOutputFiles": {
+                "family": "Bahnschrift Condensed",
+                "pointSize": 24,
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "strikeOut": false,
+                "weight": 400
+            }
+        },
+        "GroupSettings": {
+            "font": {
+                "family": "Bahnschrift SemiBold",
+                "pointSize": 22,
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "strikeOut": false,
+                "weight": 700
+            }
+        },
+        "ProgramSettings": {
+            "font": {
+                "family": "Bahnschrift SemiLight",
+                "pointSize": 22,
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "strikeOut": false,
+                "weight": 400
+            }
+        },
+        "ScopeEntitySettings": {
+            "font": {
+                "family": "Bahnschrift SemiBold Condensed",
+                "pointSize": 28,
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "strikeOut": false,
+                "weight": 700
+            }
+        },
+        "ColorSettings": {
+            "colorTheme": "None",
+            "backgroundGridColor": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "depthChainForeground": [
+                0,
+                0,
+                0,
+                255
+            ],
+            "depthChainShadow": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "colorSpecGlobal": {
+                "gradient": 0.0,
+                "Base": {
+                    "body": [
+                        192,
+                        234,
+                        106,
+                        255
+                    ],
+                    "text": [
+                        72,
+                        85,
+                        80,
+                        255
+                    ],
+                    "border": [
+                        73,
+                        85,
+                        81,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Primary": {
+                    "body": [
+                        192,
+                        234,
+                        106,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        108,
+                        127,
+                        255
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                },
+                "Secondary": {
+                    "body": [
+                        0,
+                        155,
+                        182,
+                        255
+                    ],
+                    "text": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        108,
+                        127,
+                        255
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                }
+            },
+            "colorSpecAnnotation": {
+                "gradient": 0.5,
+                "Base": {
+                    "body": [
+                        72,
+                        85,
+                        80,
+                        255
+                    ],
+                    "text": [
+                        72,
+                        85,
+                        80,
+                        255
+                    ],
+                    "border": [
+                        215,
+                        215,
+                        215,
+                        255
+                    ],
+                    "bodyShadow": [
+                        180,
+                        180,
+                        180,
+                        255
+                    ],
+                    "textShadow": [
+                        180,
+                        180,
+                        180,
+                        255
+                    ]
+                },
+                "Primary": {
+                    "body": [
+                        72,
+                        85,
+                        80,
+                        255
+                    ],
+                    "text": [
+                        72,
+                        85,
+                        80,
+                        255
+                    ],
+                    "border": [
+                        215,
+                        215,
+                        215,
+                        255
+                    ],
+                    "bodyShadow": [
+                        180,
+                        180,
+                        180,
+                        255
+                    ],
+                    "textShadow": [
+                        180,
+                        180,
+                        180,
+                        255
+                    ]
+                },
+                "Secondary": {
+                    "body": [
+                        255,
+                        200,
+                        0,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        255,
+                        0,
+                        0,
+                        255
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        192
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ]
+                }
+            },
+            "colorSpecBlock": {
+                "gradient": 0.0,
+                "Base": {
+                    "body": [
+                        128,
+                        176,
+                        184,
+                        255
+                    ],
+                    "text": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        71,
+                        138,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Primary": {
+                    "body": [
+                        178,
+                        245,
+                        255,
+                        128
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        108,
+                        127,
+                        255
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                },
+                "Secondary": {
+                    "body": [
+                        255,
+                        200,
+                        0,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        255,
+                        0,
+                        0,
+                        255
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        192
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ]
+                }
+            },
+            "colorSpecBranch": {
+                "gradient": 0.0,
+                "Base": {
+                    "body": [
+                        0,
+                        108,
+                        127,
+                        255
+                    ],
+                    "text": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        108,
+                        127,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ]
+                },
+                "Primary": {
+                    "body": [
+                        252,
+                        255,
+                        89,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        108,
+                        127,
+                        255
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                },
+                "Secondary": {
+                    "body": [
+                        0,
+                        108,
+                        127,
+                        128
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        108,
+                        127,
+                        255
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                }
+            },
+            "colorSpecInputFile": {
+                "gradient": 0.0,
+                "Base": {
+                    "body": [
+                        72,
+                        85,
+                        80,
+                        255
+                    ],
+                    "text": [
+                        244,
+                        246,
+                        240,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        128,
+                        255,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Primary": {
+                    "body": [
+                        252,
+                        255,
+                        89,
+                        255
+                    ],
+                    "text": [
+                        73,
+                        85,
+                        81,
+                        255
+                    ],
+                    "border": [
+                        192,
+                        235,
+                        106,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                },
+                "Secondary": {
+                    "body": [
+                        146,
+                        172,
+                        162,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        255,
+                        0,
+                        0,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                }
+            },
+            "colorSpecOutputFile": {
+                "gradient": 0.0,
+                "Base": {
+                    "body": [
+                        0,
+                        161,
+                        186,
+                        255
+                    ],
+                    "text": [
+                        244,
+                        246,
+                        240,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        128,
+                        255,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Primary": {
+                    "body": [
+                        252,
+                        255,
+                        89,
+                        255
+                    ],
+                    "text": [
+                        72,
+                        85,
+                        80,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        0,
+                        255,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                },
+                "Secondary": {
+                    "body": [
+                        215,
+                        241,
+                        255,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        255,
+                        0,
+                        0,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                }
+            },
+            "colorSpecGroup": {
+                "gradient": 0.0,
+                "Base": {
+                    "body": [
+                        255,
+                        220,
+                        78,
+                        255
+                    ],
+                    "text": [
+                        72,
+                        78,
+                        74,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        128,
+                        255,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Primary": {
+                    "body": [
+                        252,
+                        255,
+                        89,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        108,
+                        127,
+                        255
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                },
+                "Secondary": {
+                    "body": [
+                        255,
+                        220,
+                        78,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        108,
+                        127,
+                        255
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                }
+            },
+            "colorSpecLoop": {
+                "gradient": 0.0,
+                "Base": {
+                    "body": [
+                        0,
+                        108,
+                        127,
+                        255
+                    ],
+                    "text": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        128,
+                        255,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Primary": {
+                    "body": [
+                        0,
+                        108,
+                        127,
+                        122
+                    ],
+                    "text": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        108,
+                        127,
+                        255
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                },
+                "Secondary": {
+                    "body": [
+                        0,
+                        108,
+                        127,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        255,
+                        0,
+                        0,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                }
+            },
+            "colorSpecProgram": {
+                "gradient": 0.0,
+                "Base": {
+                    "body": [
+                        192,
+                        235,
+                        106,
+                        255
+                    ],
+                    "text": [
+                        72,
+                        85,
+                        80,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        128,
+                        255,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Primary": {
+                    "body": [
+                        252,
+                        255,
+                        89,
+                        255
+                    ],
+                    "text": [
+                        72,
+                        85,
+                        80,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        108,
+                        127,
+                        255
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                },
+                "Secondary": {
+                    "body": [
+                        192,
+                        235,
+                        106,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        108,
+                        127,
+                        255
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                }
+            },
+            "colorSpecScope": {
+                "gradient": 0.0,
+                "Base": {
+                    "body": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "text": [
+                        72,
+                        85,
+                        80,
+                        255
+                    ],
+                    "border": [
+                        192,
+                        235,
+                        106,
+                        255
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Primary": {
+                    "body": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        108,
+                        127,
+                        255
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                },
+                "Secondary": {
+                    "body": [
+                        215,
+                        215,
+                        215,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        108,
+                        127,
+                        255
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                }
+            }
+        },
+        "LoopSettings": {
+            "showLimits": true
+        },
+        "AnnotationSettings": {
+            "font": {
+                "family": "Bahnschrift Light Condensed",
+                "pointSize": 24,
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "strikeOut": false,
+                "weight": 400
+            }
+        },
+        "CtlDialogSettings": {
+            "Options": {
+                "defaults": false,
+                "names": true,
+                "headers": true,
+                "descriptions": true
+            },
+            "Params": {
+                "show": 0,
+                "defaults": false,
+                "values": true,
+                "sortByAlpha": false
+            }
+        }
+    },
+    "rootId": 1,
+    "RunParams": {
+        "autoOpenGroup": true,
+        "cubeExe": ""
+    },
+    "Entities": [
+        {
+            "class": "Group",
+            "uuid": 1,
+            "parentId": 0,
+            "Node": {
+                "executionOrder": 1,
+                "position": [
+                    -168.8,
+                    -52.5
+                ],
+                "titleAnnotationId": 2
+            },
+            "Group": {
+                "name": "ROOT",
+                "ViewInfo": {
+                    "width": 2160,
+                    "height": 2077,
+                    "zoom": 0.4282494365138992,
+                    "sliderX": 0,
+                    "sliderY": 0
+                },
+                "Background": {
+                    "backgroundType": "None",
+                    "solidColor": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "gradientStartColor": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "gradientEndColor": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "imagePathOrig": "",
+                    "alignment": 132,
+                    "style": "AspectFill"
+                }
+            }
+        },
+        {
+            "class": "CubePyProgram",
+            "uuid": 329,
+            "parentId": 1,
+            "CubePy": {
+                "addInfo": {
+                    "description": "",
+                    "name": "CubePy",
+                    "scriptName": "D:\\STEAM_v4_SCRIPTS_TESTING\\Applications\\MAIN\\cubepy_c.py",
+                    "numInputFiles": 4,
+                    "numOutputFiles": 2
+                }
+            },
+            "Node": {
+                "executionOrder": 4,
+                "position": [
+                    480.0,
+                    1360.0
+                ],
+                "titleAnnotationId": 330
+            },
+            "Program": {
+                "name": "CubePy",
+                "fileDisplayMode": "all"
+            }
+        },
+        {
+            "class": "Annotation",
+            "uuid": 2,
+            "parentId": 1,
+            "Annotation": {
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "size": [
+                    0.0,
+                    0.0
+                ],
+                "text": "",
+                "renderShadow": true,
+                "renderRectangle": false
+            }
+        },
+        {
+            "class": "ScopeEntity",
+            "uuid": 3,
+            "parentId": 1,
+            "ScopeEntity": {
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scopeName": "Public"
+            }
+        },
+        {
+            "class": "MatrixProgram",
+            "uuid": 4,
+            "parentId": 1,
+            "Node": {
+                "executionOrder": 1,
+                "position": [
+                    260.0,
+                    300.0
+                ],
+                "titleAnnotationId": 5
+            },
+            "Program": {
+                "name": "MATRIX",
+                "fileDisplayMode": "used"
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 68,
+            "parentId": 4,
+            "OutputFile": {
+                "FileEntity": {
+                    "displayOrder": 0,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0MATNBAPNC8ZFR.PRN",
+                    "description": "Print File"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "Annotation",
+            "uuid": 5,
+            "parentId": 4,
+            "Annotation": {
+                "position": [
+                    15.0,
+                    -49.0
+                ],
+                "size": [
+                    222.0,
+                    39.0
+                ],
+                "text": "create dummy files",
+                "renderShadow": true,
+                "renderRectangle": false
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 69,
+            "parentId": 4,
+            "OutputFile": {
+                "FileEntity": {
+                    "displayOrder": 1,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0MATBX6ZDUJ352.MAT",
+                    "description": "Matrix File 1",
+                    "descUser": "mat"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 333,
+            "parentId": 329,
+            "colorSpec": {
+                "gradient": 0.0,
+                "Base": {
+                    "body": [
+                        255,
+                        102,
+                        102,
+                        255
+                    ],
+                    "text": [
+                        244,
+                        246,
+                        240,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        128,
+                        255,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Primary": {
+                    "body": [
+                        252,
+                        255,
+                        89,
+                        255
+                    ],
+                    "text": [
+                        73,
+                        85,
+                        81,
+                        255
+                    ],
+                    "border": [
+                        192,
+                        235,
+                        106,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                },
+                "Secondary": {
+                    "body": [
+                        146,
+                        172,
+                        162,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        255,
+                        0,
+                        0,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                }
+            },
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "*"
+                    },
+                    "displayOrder": 2,
+                    "sourceMode": "Id",
+                    "sourceName": "288",
+                    "description": "Input File 2",
+                    "descUser": "Input File 2"
+                },
+                "loopIteration": false,
+                "LinkDrawInfo": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "penStyle": "Solid",
+                    "thickness": 2.0,
+                    "inherit": true,
+                    "curvature": 1
+                }
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 6,
+            "parentId": 4,
+            "InputFile": {
+                "FileEntity": {
+                    "displayOrder": 0,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{App_Dir}\\G0MATF1A0DT4NJX.S",
+                    "description": "Script File"
+                },
+                "loopIteration": false
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 104,
+            "parentId": 4,
+            "OutputFile": {
+                "FileEntity": {
+                    "displayOrder": 36,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0MAT2OMQT6HPVO.csv",
+                    "description": "Print Data 1",
+                    "descUser": "csv 1"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 200,
+            "parentId": 4,
+            "OutputFile": {
+                "FileEntity": {
+                    "displayOrder": 37,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0MATUGV5X4TN7I.csv",
+                    "description": "Print Data 2",
+                    "descUser": "csv 2"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "Annotation",
+            "uuid": 330,
+            "parentId": 329,
+            "Annotation": {
+                "position": [
+                    15.0,
+                    -51.0
+                ],
+                "size": [
+                    222.0,
+                    39.0
+                ],
+                "text": "transpose mat files",
+                "renderShadow": true,
+                "renderRectangle": false
+            }
+        },
+        {
+            "class": "CubePyProgram",
+            "uuid": 209,
+            "parentId": 1,
+            "CubePy": {
+                "addInfo": {
+                    "description": "convert mat to csv",
+                    "name": "CubePy",
+                    "scriptName": "D:\\STEAM_v4_SCRIPTS_TESTING\\Applications\\MAIN\\cubepy_a.py",
+                    "numInputFiles": 5,
+                    "numOutputFiles": 1
+                }
+            },
+            "Node": {
+                "executionOrder": 2,
+                "position": [
+                    1280.0,
+                    300.0
+                ],
+                "titleAnnotationId": 210
+            },
+            "Program": {
+                "name": "CubePy",
+                "fileDisplayMode": "all"
+            }
+        },
+        {
+            "class": "Annotation",
+            "uuid": 210,
+            "parentId": 209,
+            "Annotation": {
+                "position": [
+                    -28.0,
+                    -59.675999999999998
+                ],
+                "size": [
+                    308.0,
+                    39.0
+                ],
+                "text": "convert mat to cube-matrix",
+                "renderShadow": true,
+                "renderRectangle": false
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 340,
+            "parentId": 329,
+            "OutputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "prn"
+                    },
+                    "displayOrder": 9,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0CCC7YXM5WHNNX.prn",
+                    "description": "Print File",
+                    "descUser": "Print File"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 211,
+            "parentId": 209,
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "py"
+                    },
+                    "displayOrder": 0,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{App_Dir}\\cubepy_a.py",
+                    "description": "Script File",
+                    "descUser": "Script File"
+                },
+                "loopIteration": false
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 339,
+            "parentId": 329,
+            "OutputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "mat"
+                    },
+                    "displayOrder": 8,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0CCC1BYUFQDQVC.mat",
+                    "description": "Output File 4",
+                    "descUser": "Output File 4"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 212,
+            "parentId": 209,
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "mat"
+                    },
+                    "displayOrder": 1,
+                    "sourceMode": "Id",
+                    "sourceName": "69",
+                    "description": "Input File 1",
+                    "descUser": "m1"
+                },
+                "loopIteration": false,
+                "LinkDrawInfo": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "penStyle": "Solid",
+                    "thickness": 2.0,
+                    "inherit": true,
+                    "curvature": 1
+                }
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 338,
+            "parentId": 329,
+            "OutputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "mat"
+                    },
+                    "displayOrder": 7,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0CCCIMQZL817A6.mat",
+                    "description": "Output File 3",
+                    "descUser": "Output File 3"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 217,
+            "parentId": 209,
+            "OutputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "cube-matrix"
+                    },
+                    "displayOrder": 3,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0CCCTZE8HJHGDO.cube-matrix",
+                    "description": "Output File 1",
+                    "descUser": "outputcubematrix"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 289,
+            "parentId": 4,
+            "OutputFile": {
+                "FileEntity": {
+                    "displayOrder": 4,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0MATHTBF822EBM.MAT",
+                    "description": "Matrix File 4",
+                    "descUser": "mat 3"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 218,
+            "parentId": 209,
+            "OutputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "prn"
+                    },
+                    "displayOrder": 2,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0CCCGPUYGZ2D0O.prn",
+                    "description": "Print File",
+                    "descUser": "Print File"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "CubePyProgram",
+            "uuid": 219,
+            "parentId": 1,
+            "CubePy": {
+                "addInfo": {
+                    "description": "apply coefficients ",
+                    "name": "CubePy",
+                    "scriptName": "D:\\STEAM_v4_SCRIPTS_TESTING\\Applications\\MAIN\\cubepy_b.py",
+                    "numInputFiles": 3,
+                    "numOutputFiles": 1
+                }
+            },
+            "Node": {
+                "executionOrder": 3,
+                "position": [
+                    1420.0,
+                    720.0
+                ],
+                "titleAnnotationId": 220
+            },
+            "Program": {
+                "name": "CubePy",
+                "fileDisplayMode": "all"
+            }
+        },
+        {
+            "class": "Annotation",
+            "uuid": 220,
+            "parentId": 219,
+            "Annotation": {
+                "position": [
+                    23.0,
+                    -51.0
+                ],
+                "size": [
+                    206.0,
+                    39.0
+                ],
+                "text": "apply coefficients ",
+                "renderShadow": true,
+                "renderRectangle": false
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 221,
+            "parentId": 219,
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "py"
+                    },
+                    "displayOrder": 0,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{App_Dir}\\cubepy_b.py",
+                    "description": "Script File",
+                    "descUser": "Script File"
+                },
+                "loopIteration": false
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 222,
+            "parentId": 219,
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "cube-matrix"
+                    },
+                    "displayOrder": 1,
+                    "sourceMode": "Id",
+                    "sourceName": "217",
+                    "description": "Input File 1",
+                    "descUser": "m1"
+                },
+                "loopIteration": false,
+                "LinkDrawInfo": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "penStyle": "Solid",
+                    "thickness": 2.0,
+                    "inherit": true,
+                    "curvature": 1
+                }
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 336,
+            "parentId": 329,
+            "OutputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "mat"
+                    },
+                    "displayOrder": 5,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0CCC1FA9GINL4N.mat",
+                    "description": "Output File 1",
+                    "descUser": "Output File 1"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 223,
+            "parentId": 219,
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "csv"
+                    },
+                    "displayOrder": 2,
+                    "sourceMode": "Id",
+                    "sourceName": "104",
+                    "description": "Input File 2",
+                    "descUser": "csv1"
+                },
+                "loopIteration": false,
+                "LinkDrawInfo": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "penStyle": "Solid",
+                    "thickness": 2.0,
+                    "inherit": true,
+                    "curvature": 1
+                }
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 224,
+            "parentId": 219,
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "csv"
+                    },
+                    "displayOrder": 3,
+                    "sourceMode": "Id",
+                    "sourceName": "200",
+                    "description": "Input File 3",
+                    "descUser": "csv2"
+                },
+                "loopIteration": false,
+                "LinkDrawInfo": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "penStyle": "Solid",
+                    "thickness": 2.0,
+                    "inherit": true,
+                    "curvature": 1
+                }
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 225,
+            "parentId": 219,
+            "OutputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "cube-matrix"
+                    },
+                    "displayOrder": 4,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0CCCJF5JSQAXDX.cube-matrix",
+                    "description": "Output File 1",
+                    "descUser": "outputcubematrix"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 287,
+            "parentId": 4,
+            "OutputFile": {
+                "FileEntity": {
+                    "displayOrder": 2,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0MATSM7RLNUYNF.MAT",
+                    "description": "Matrix File 2",
+                    "descUser": "mat 1"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 288,
+            "parentId": 4,
+            "OutputFile": {
+                "FileEntity": {
+                    "displayOrder": 3,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0MATC22X49DY2T.MAT",
+                    "description": "Matrix File 3",
+                    "descUser": "mat 2"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 290,
+            "parentId": 4,
+            "OutputFile": {
+                "FileEntity": {
+                    "displayOrder": 5,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0MATO05VLPYIIZ.MAT",
+                    "description": "Matrix File 5",
+                    "descUser": "mat 4"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 331,
+            "parentId": 329,
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "py"
+                    },
+                    "displayOrder": 0,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{App_Dir}\\cubepy_c.py",
+                    "description": "Script File",
+                    "descUser": "Script File"
+                },
+                "loopIteration": false
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 332,
+            "parentId": 329,
+            "colorSpec": {
+                "gradient": 0.0,
+                "Base": {
+                    "body": [
+                        255,
+                        102,
+                        102,
+                        255
+                    ],
+                    "text": [
+                        244,
+                        246,
+                        240,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        128,
+                        255,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Primary": {
+                    "body": [
+                        252,
+                        255,
+                        89,
+                        255
+                    ],
+                    "text": [
+                        73,
+                        85,
+                        81,
+                        255
+                    ],
+                    "border": [
+                        192,
+                        235,
+                        106,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                },
+                "Secondary": {
+                    "body": [
+                        146,
+                        172,
+                        162,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        255,
+                        0,
+                        0,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                }
+            },
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "*"
+                    },
+                    "displayOrder": 1,
+                    "sourceMode": "Id",
+                    "sourceName": "287",
+                    "description": "Input File 1",
+                    "descUser": "Input File 1"
+                },
+                "loopIteration": false,
+                "LinkDrawInfo": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "penStyle": "Solid",
+                    "thickness": 2.0,
+                    "inherit": true,
+                    "curvature": 1
+                }
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 334,
+            "parentId": 329,
+            "colorSpec": {
+                "gradient": 0.0,
+                "Base": {
+                    "body": [
+                        255,
+                        102,
+                        102,
+                        255
+                    ],
+                    "text": [
+                        244,
+                        246,
+                        240,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        128,
+                        255,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Primary": {
+                    "body": [
+                        252,
+                        255,
+                        89,
+                        255
+                    ],
+                    "text": [
+                        73,
+                        85,
+                        81,
+                        255
+                    ],
+                    "border": [
+                        192,
+                        235,
+                        106,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                },
+                "Secondary": {
+                    "body": [
+                        146,
+                        172,
+                        162,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        255,
+                        0,
+                        0,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                }
+            },
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "*"
+                    },
+                    "displayOrder": 3,
+                    "sourceMode": "Id",
+                    "sourceName": "289",
+                    "description": "Input File 3",
+                    "descUser": "Input File 3"
+                },
+                "loopIteration": false,
+                "LinkDrawInfo": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "penStyle": "Solid",
+                    "thickness": 2.0,
+                    "inherit": true,
+                    "curvature": 1
+                }
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 335,
+            "parentId": 329,
+            "colorSpec": {
+                "gradient": 0.0,
+                "Base": {
+                    "body": [
+                        255,
+                        102,
+                        102,
+                        255
+                    ],
+                    "text": [
+                        244,
+                        246,
+                        240,
+                        255
+                    ],
+                    "border": [
+                        0,
+                        128,
+                        255,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Primary": {
+                    "body": [
+                        252,
+                        255,
+                        89,
+                        255
+                    ],
+                    "text": [
+                        73,
+                        85,
+                        81,
+                        255
+                    ],
+                    "border": [
+                        192,
+                        235,
+                        106,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                },
+                "Secondary": {
+                    "body": [
+                        146,
+                        172,
+                        162,
+                        255
+                    ],
+                    "text": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "border": [
+                        255,
+                        0,
+                        0,
+                        0
+                    ],
+                    "bodyShadow": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "textShadow": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                }
+            },
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "*"
+                    },
+                    "displayOrder": 4,
+                    "sourceMode": "Id",
+                    "sourceName": "290",
+                    "description": "Input File 4",
+                    "descUser": "Input File 4"
+                },
+                "loopIteration": false,
+                "LinkDrawInfo": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "penStyle": "Solid",
+                    "thickness": 2.0,
+                    "inherit": true,
+                    "curvature": 1
+                }
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 337,
+            "parentId": 329,
+            "OutputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "mat"
+                    },
+                    "displayOrder": 6,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0CCCM0KPPN3SI9.mat",
+                    "description": "Output File 2",
+                    "descUser": "Output File 2"
+                },
+                "savePerLoopIteration": false
+            }
+        }
+    ],
+    "Scopes": [
+        {
+            "name": "Public",
+            "nodes": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,258 @@
+{
+    "dataType": "Cube Project",
+    "version": 2,
+    "srid": -1,
+    "lockedProject": false,
+    "Applications": [
+        "MAIN"
+    ],
+    "Catalog": {
+        "Keys": {
+            "name": "",
+            "children": [
+                {
+                    "name": "System",
+                    "children": [
+                        {
+                            "name": "App_Dir",
+                            "prompt": "",
+                            "description": "",
+                            "permissions": 0,
+                            "colorTags": 0,
+                            "valueDefault": "",
+                            "type": "Filename",
+                            "editControl": "Unspecified",
+                            "Advanced": {
+                                "fileLocation": 1
+                            }
+                        },
+                        {
+                            "name": "Group_Dir",
+                            "prompt": "",
+                            "description": "",
+                            "permissions": 0,
+                            "colorTags": 0,
+                            "valueDefault": "",
+                            "type": "Filename",
+                            "editControl": "Unspecified",
+                            "Advanced": {
+                                "fileLocation": 1
+                            }
+                        },
+                        {
+                            "name": "Project_Dir",
+                            "prompt": "",
+                            "description": "",
+                            "permissions": 0,
+                            "colorTags": 0,
+                            "valueDefault": "",
+                            "type": "Filename",
+                            "editControl": "Unspecified",
+                            "Advanced": {
+                                "fileLocation": 1
+                            }
+                        },
+                        {
+                            "name": "Project_Name",
+                            "prompt": "",
+                            "description": "",
+                            "permissions": 0,
+                            "colorTags": 0,
+                            "valueDefault": "",
+                            "type": "Character",
+                            "editControl": "Unspecified",
+                            "Advanced": {
+                                "fileLocation": 1,
+                                "maxStringLength": 256
+                            }
+                        },
+                        {
+                            "name": "Catalog_Dir",
+                            "prompt": "",
+                            "description": "",
+                            "permissions": 0,
+                            "colorTags": 0,
+                            "valueDefault": "",
+                            "type": "Filename",
+                            "editControl": "Unspecified",
+                            "Advanced": {
+                                "fileLocation": 1
+                            }
+                        },
+                        {
+                            "name": "Scenario_Dir",
+                            "prompt": "",
+                            "description": "",
+                            "permissions": 0,
+                            "colorTags": 0,
+                            "valueDefault": "",
+                            "type": "Filename",
+                            "editControl": "Unspecified",
+                            "Advanced": {
+                                "fileLocation": 1
+                            }
+                        },
+                        {
+                            "name": "App_Name",
+                            "prompt": "",
+                            "description": "",
+                            "permissions": 0,
+                            "colorTags": 0,
+                            "valueDefault": "",
+                            "type": "Character",
+                            "editControl": "Unspecified",
+                            "Advanced": {
+                                "fileLocation": 1,
+                                "maxStringLength": 256
+                            }
+                        },
+                        {
+                            "name": "Scenario_Code",
+                            "prompt": "",
+                            "description": "",
+                            "permissions": 0,
+                            "colorTags": 0,
+                            "valueDefault": "",
+                            "type": "Character",
+                            "editControl": "Unspecified",
+                            "Advanced": {
+                                "fileLocation": 1,
+                                "maxStringLength": 256
+                            }
+                        },
+                        {
+                            "name": "Scenario_FullName",
+                            "prompt": "",
+                            "description": "",
+                            "permissions": 0,
+                            "colorTags": 0,
+                            "valueDefault": "",
+                            "type": "Character",
+                            "editControl": "Unspecified",
+                            "Advanced": {
+                                "fileLocation": 1,
+                                "maxStringLength": 256
+                            }
+                        },
+                        {
+                            "name": "Scenario_ShortName",
+                            "prompt": "",
+                            "description": "",
+                            "permissions": 0,
+                            "colorTags": 0,
+                            "valueDefault": "",
+                            "type": "Character",
+                            "editControl": "Unspecified",
+                            "Advanced": {
+                                "fileLocation": 1,
+                                "maxStringLength": 256
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ConvertUtility",
+                    "prompt": "",
+                    "description": "",
+                    "permissions": 1,
+                    "colorTags": 0,
+                    "valueDefault": "C:\\Program Files\\Bentley\\OpenPaths\\CUBE 25.00.01\\CubeConvert.exe",
+                    "type": "Filename",
+                    "editControl": "EditBox",
+                    "Advanced": {
+                        "fileLocation": 1
+                    }
+                },
+                {
+                    "name": "CubeInstallationPath",
+                    "prompt": "",
+                    "description": "",
+                    "permissions": 1,
+                    "colorTags": 0,
+                    "valueDefault": "C:\\Program Files\\Bentley\\OpenPaths\\CUBE 25.00.01",
+                    "type": "Filename",
+                    "editControl": "EditBox",
+                    "Advanced": {
+                        "fileLocation": 1
+                    }
+                }
+            ]
+        },
+        "KeyColorTags": [
+            {
+                "color": [
+                    222,
+                    58,
+                    0,
+                    255
+                ],
+                "colorName": "Red",
+                "label": "Red",
+                "opacity": false
+            },
+            {
+                "color": [
+                    222,
+                    158,
+                    0,
+                    255
+                ],
+                "colorName": "Orange",
+                "label": "Orange",
+                "opacity": false
+            },
+            {
+                "color": [
+                    58,
+                    222,
+                    0,
+                    255
+                ],
+                "colorName": "Green",
+                "label": "Green",
+                "opacity": false
+            },
+            {
+                "color": [
+                    0,
+                    158,
+                    222,
+                    255
+                ],
+                "colorName": "Blue",
+                "label": "Blue",
+                "opacity": false
+            },
+            {
+                "color": [
+                    158,
+                    0,
+                    222,
+                    255
+                ],
+                "colorName": "Purple",
+                "label": "Purple",
+                "opacity": false
+            }
+        ],
+        "Scenarios": {
+            "name": "Base",
+            "code": "0001",
+            "description": "",
+            "values": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        }
+    }
+}

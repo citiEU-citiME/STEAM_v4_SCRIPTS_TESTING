@@ -1,0 +1,7 @@
+CubePy Program: Convert Tempo LogSum to cube-matrix
+Start: 2026-05-07 18:09:01.339711 
+
+"C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/CubeConvert.exe" -f mat-from6 -s "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATBX6ZDUJ352.MAT" -d "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0CCCTZE8HJHGDO.cube-matrix" -c 2
+Matrix converted successfully
+
+End: 2026-05-07 18:09:01.610500

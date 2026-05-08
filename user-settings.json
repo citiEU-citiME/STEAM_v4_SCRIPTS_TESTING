@@ -1,0 +1,11 @@
+{
+    "cube-managed": true,
+    "python-version": "311",
+    "verbose": false,
+    "user-virtual-environment": false,
+    "user-virtual-environment-path": "",
+    "user-interpreter": false,
+    "user-interpreter-path": "",
+    "disabled-filters": [],
+    "show-unlabelled-keys-filter": true
+}

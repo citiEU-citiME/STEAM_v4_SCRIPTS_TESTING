@@ -1,0 +1,25 @@
+C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/CubeConvert.exe -f mat-from6 -s "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATSM7RLNUYNF.MAT" -d "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/tmp_cubepypttranspose_a0b2c3c_ix0.cube-matrix" -c 0
+Run Time for convert_from_6 D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATSM7RLNUYNF.MAT: 0:00:00.174307
+('T1P1', 'T1P2', 'T1P3', 'T1P4', 'T1P5')
+Run Time for transposing D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATSM7RLNUYNF.MAT: 0:00:00.005000
+C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/CubeConvert.exe -f mat-to6 -s "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/tmp_cubepypttranspose_a0b2c3c_ix0.cube-matrix" -d "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0CCC1FA9GINL4N.mat
+Run Time for convert_to_6 D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATSM7RLNUYNF.MAT: 0:00:00.176948
+C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/CubeConvert.exe -f mat-from6 -s "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATC22X49DY2T.MAT" -d "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/tmp_cubepypttranspose_a0b2c3c_ix1.cube-matrix" -c 0
+Run Time for convert_from_6 D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATC22X49DY2T.MAT: 0:00:00.168878
+('T2P1', 'T2P2', 'T2P3', 'T2P4', 'T2P5')
+Run Time for transposing D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATC22X49DY2T.MAT: 0:00:00.003991
+C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/CubeConvert.exe -f mat-to6 -s "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/tmp_cubepypttranspose_a0b2c3c_ix1.cube-matrix" -d "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0CCCM0KPPN3SI9.mat
+Run Time for convert_to_6 D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATC22X49DY2T.MAT: 0:00:00.175005
+C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/CubeConvert.exe -f mat-from6 -s "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATHTBF822EBM.MAT" -d "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/tmp_cubepypttranspose_a0b2c3c_ix2.cube-matrix" -c 0
+Run Time for convert_from_6 D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATHTBF822EBM.MAT: 0:00:00.163475
+('T3P1', 'T3P2', 'T3P3', 'T3P4', 'T3P5')
+Run Time for transposing D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATHTBF822EBM.MAT: 0:00:00.008517
+C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/CubeConvert.exe -f mat-to6 -s "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/tmp_cubepypttranspose_a0b2c3c_ix2.cube-matrix" -d "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0CCCIMQZL817A6.mat
+Run Time for convert_to_6 D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATHTBF822EBM.MAT: 0:00:00.172052
+C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/CubeConvert.exe -f mat-from6 -s "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATO05VLPYIIZ.MAT" -d "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/tmp_cubepypttranspose_a0b2c3c_ix3.cube-matrix" -c 0
+Run Time for convert_from_6 D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATO05VLPYIIZ.MAT: 0:00:00.166454
+('T4P1', 'T4P2', 'T4P3', 'T4P4', 'T4P5')
+Run Time for transposing D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATO05VLPYIIZ.MAT: 0:00:00.007661
+C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/CubeConvert.exe -f mat-to6 -s "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/tmp_cubepypttranspose_a0b2c3c_ix3.cube-matrix" -d "D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0CCC1BYUFQDQVC.mat
+Run Time for convert_to_6 D:/STEAM_v4_SCRIPTS_TESTING/Scenarios/Base-0001/G0MATO05VLPYIIZ.MAT: 0:00:00.175534
+Total Run Time: 0:00:01.398853
