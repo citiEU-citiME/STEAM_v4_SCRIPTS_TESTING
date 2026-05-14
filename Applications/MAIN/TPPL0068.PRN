@@ -1,0 +1,64 @@
+Page 1  (VOYAGER PILOT) 
+citiEU Consultancy LTD
+------------------------
+PILOT (v.04/28/2025 [25.00.01.00 x64]) Thu May 14 10:10:32 2026
+
+Args: D:\STEAM_v4_SCRIPTS_TESTING\Applications\MAIN\MAIN_cubepy_d-0001.S -CS127.0.0.1:42501/12 -SD:\STEAM_v4_SCRIPTS_TESTING\Applications\MAIN\
+Input:   D:...AM_v4_SCRIPTS_TESTING\Applications\MAIN\MAIN_cubepy_d-0001.S
+
+M(658): Input expanded to C:\Users\antor\AppData\Local\Temp\Voy27204_64600.$$$ before starting run
+
+CLUSTER SERVER=127.0.0.1 NUMPROCESSES=12 PORT=42501
+SYS=(cmd /c ""C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "D:/STEAM_v4_SCRIPTS_TESTING/venv/exec.py" "-p" "C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "-v" "-m" "-r" "D:/STEAM_v4_SCRIPTS_TESTING/pip-requirements.txt" "-u" "D:/STEAM_v4_SCRIPTS_TESTING/venv/venv311" ")
+REPORT_SCRIPT_LOCATION LOCATION_ID='RUNSTART'
+REPORT_SCRIPT_LOCATION LOCATION_ID='440'
+SYS=(cmd /c ""C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "D:/STEAM_v4_SCRIPTS_TESTING/venv/cubepy_exec.py" "-p" "C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "-v" "-u" "D:/STEAM_v4_SCRIPTS_TESTING/venv/venv311" "-s" "D:/STEAM_v4_SCRIPTS_TESTING/Applications/MAIN/cubepy_d-0001_run.py" ")
+REPORT_SCRIPT_LOCATION LOCATION_ID='IDEND:440'
+if (RETURNCODE > 0) ABORT
+REPORT_SCRIPT_LOCATION LOCATION_ID='RUNEND'
+
+PILOT Stack Size = 1012 bytes.
+................................................................................
+
+
+--------------------------------------------------------------------------------
+
+SYS "cmd /c ""C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "D:/STEAM_v4_SCRIPTS_TESTING/venv/exec.py" "-p" "C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "-v" "-m" "-r" "D:/STEAM_v4_SCRIPTS_TESTING/pip-requirements.txt" "-u" "D:/STEAM_v4_SCRIPTS_TESTING/venv/venv311" ""
+
+SYS ReturnCode = 2 ???
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+SYS "cmd /c ""C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "D:/STEAM_v4_SCRIPTS_TESTING/venv/cubepy_exec.py" "-p" "C:/Program Files/Bentley/OpenPaths/CUBE 25.00.01/Python/Python311/python.exe" "-v" "-u" "D:/STEAM_v4_SCRIPTS_TESTING/venv/venv311" "-s" "D:/STEAM_v4_SCRIPTS_TESTING/Applications/MAIN/cubepy_d-0001_run.py" ""
+Processing matrix: AUTO_ODME
+Matrix Custom_Matrix_1 written to output.
+Matrix Custom_Matrix_2 written to output.
+Matrix Custom_Matrix_3 written to output.
+Matrix Custom_Matrix_4 written to output.
+Matrix Custom_Matrix_5 written to output.
+Matrix Custom_Matrix_6 written to output.
+Matrix Custom_Matrix_7 written to output.
+Matrix Custom_Matrix_8 written to output.
+Matrix Custom_Matrix_9 written to output.
+Matrix Custom_Matrix_10 written to output.
+Matrix Custom_Matrix_11 written to output.
+Matrix Custom_Matrix_12 written to output.
+Matrix Custom_Matrix_13 written to output.
+Matrix Custom_Matrix_14 written to output.
+Matrix Custom_Matrix_15 written to output.
+Matrix Custom_Matrix_16 written to output.
+Matrix Custom_Matrix_17 written to output.
+Matrix Custom_Matrix_18 written to output.
+Matrix Custom_Matrix_19 written to output.Page 2  (VOYAGER PILOT) 
+citiEU Consultancy LTD
+------------------------
+Matrix Custom_Matrix_20 written to output.
+Matrix update complete!
+
+SYS ReturnCode = 0
+
+--------------------------------------------------------------------------------
+
+VOYAGER  ReturnCode = 0  Elapsed Time = 00:00:06

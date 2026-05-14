@@ -1164,11 +1164,11 @@
             "Group": {
                 "name": "ROOT",
                 "ViewInfo": {
-                    "width": 2160,
+                    "width": 2249,
                     "height": 2077,
-                    "zoom": 0.4282494365138992,
+                    "zoom": 0.4710743801652896,
                     "sliderX": 0,
-                    "sliderY": 0
+                    "sliderY": 72
                 },
                 "Background": {
                     "backgroundType": "None",
@@ -1210,7 +1210,7 @@
                 }
             },
             "Node": {
-                "executionOrder": 4,
+                "executionOrder": 5,
                 "position": [
                     480.0,
                     1360.0
@@ -1267,6 +1267,24 @@
             "Program": {
                 "name": "MATRIX",
                 "fileDisplayMode": "used"
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 451,
+            "parentId": 447,
+            "OutputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "cube-matrix"
+                    },
+                    "displayOrder": 1,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0CCCVA1843NVDS.cube-matrix",
+                    "description": "Output File 1",
+                    "descUser": "ODME"
+                },
+                "savePerLoopIteration": false
             }
         },
         {
@@ -1521,7 +1539,7 @@
                 }
             },
             "Node": {
-                "executionOrder": 2,
+                "executionOrder": 3,
                 "position": [
                     1280.0,
                     300.0
@@ -1718,7 +1736,7 @@
                 }
             },
             "Node": {
-                "executionOrder": 3,
+                "executionOrder": 4,
                 "position": [
                     1420.0,
                     720.0
@@ -2356,6 +2374,256 @@
                     "sourceName": "{Scenario_Dir}\\G0CCCM0KPPN3SI9.mat",
                     "description": "Output File 2",
                     "descUser": "Output File 2"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "CubePyProgram",
+            "uuid": 440,
+            "parentId": 1,
+            "CubePy": {
+                "addInfo": {
+                    "description": "",
+                    "name": "CubePy",
+                    "scriptName": "D:\\STEAM_v4_SCRIPTS_TESTING\\Applications\\MAIN\\cubepy_d.py",
+                    "numInputFiles": 3,
+                    "numOutputFiles": 1
+                }
+            },
+            "Node": {
+                "executionOrder": 6,
+                "position": [
+                    1540.0,
+                    1160.0
+                ],
+                "titleAnnotationId": 441
+            },
+            "Program": {
+                "name": "CubePy",
+                "fileDisplayMode": "all"
+            }
+        },
+        {
+            "class": "Annotation",
+            "uuid": 441,
+            "parentId": 440,
+            "Annotation": {
+                "position": [
+                    -35.0,
+                    -116.62799999999999
+                ],
+                "size": [
+                    322.0,
+                    39.0
+                ],
+                "text": "in: 1 matrix   out: 20 matrices ",
+                "renderShadow": true,
+                "renderRectangle": false
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 442,
+            "parentId": 440,
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "py"
+                    },
+                    "displayOrder": 0,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{App_Dir}\\cubepy_d.py",
+                    "description": "Script File",
+                    "descUser": "Script File"
+                },
+                "loopIteration": false
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 443,
+            "parentId": 440,
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "cube-matrix"
+                    },
+                    "displayOrder": 1,
+                    "sourceMode": "Id",
+                    "sourceName": "451",
+                    "description": "Input File 1",
+                    "descUser": "m1"
+                },
+                "loopIteration": false,
+                "LinkDrawInfo": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "penStyle": "Solid",
+                    "thickness": 2.0,
+                    "inherit": true,
+                    "curvature": 1
+                }
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 444,
+            "parentId": 440,
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "csv"
+                    },
+                    "displayOrder": 2,
+                    "sourceMode": "Id",
+                    "sourceName": "104",
+                    "description": "Input File 2",
+                    "descUser": "csv1"
+                },
+                "loopIteration": false,
+                "LinkDrawInfo": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "penStyle": "Solid",
+                    "thickness": 2.0,
+                    "inherit": true,
+                    "curvature": 1
+                }
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 445,
+            "parentId": 440,
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "csv"
+                    },
+                    "displayOrder": 3,
+                    "sourceMode": "Id",
+                    "sourceName": "200",
+                    "description": "Input File 3",
+                    "descUser": "csv2"
+                },
+                "loopIteration": false,
+                "LinkDrawInfo": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "penStyle": "Solid",
+                    "thickness": 2.0,
+                    "inherit": true,
+                    "curvature": 1
+                }
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 446,
+            "parentId": 440,
+            "OutputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "cube-matrix"
+                    },
+                    "displayOrder": 4,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0CCCK14NHRYSJV.cube-matrix",
+                    "description": "Output File 1",
+                    "descUser": "outputcubematrix"
+                },
+                "savePerLoopIteration": false
+            }
+        },
+        {
+            "class": "CubePyProgram",
+            "uuid": 447,
+            "parentId": 1,
+            "CubePy": {
+                "addInfo": {
+                    "description": "",
+                    "name": "CubePy",
+                    "scriptName": "D:\\STEAM_v4_SCRIPTS_TESTING\\Applications\\MAIN\\cubepy_e.py",
+                    "numInputFiles": 1,
+                    "numOutputFiles": 2
+                }
+            },
+            "Node": {
+                "executionOrder": 2,
+                "position": [
+                    560.0,
+                    980.0
+                ],
+                "titleAnnotationId": 448
+            },
+            "Program": {
+                "name": "CubePy",
+                "fileDisplayMode": "all"
+            }
+        },
+        {
+            "class": "Annotation",
+            "uuid": 448,
+            "parentId": 447,
+            "Annotation": {
+                "position": [
+                    32.5,
+                    -51.0
+                ],
+                "size": [
+                    187.0,
+                    39.0
+                ],
+                "text": " create a matrix",
+                "renderShadow": true,
+                "renderRectangle": false
+            }
+        },
+        {
+            "class": "InputFile",
+            "uuid": 449,
+            "parentId": 447,
+            "InputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "py"
+                    },
+                    "displayOrder": 0,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{App_Dir}\\cubepy_e.py",
+                    "description": "Script File",
+                    "descUser": "Script File"
+                },
+                "loopIteration": false
+            }
+        },
+        {
+            "class": "OutputFile",
+            "uuid": 452,
+            "parentId": 447,
+            "OutputFile": {
+                "FileEntity": {
+                    "CubePy": {
+                        "extensions": "prn"
+                    },
+                    "displayOrder": 2,
+                    "sourceMode": "Scenario",
+                    "sourceName": "{Scenario_Dir}\\G0CCC0X8M6ED9K7.prn",
+                    "description": "Output File 2",
+                    "descUser": "Print File"
                 },
                 "savePerLoopIteration": false
             }
